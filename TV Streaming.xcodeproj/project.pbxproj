@@ -14,6 +14,8 @@
 		FA2EFD841F7A3D6E00324657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2EFD821F7A3D6E00324657 /* LaunchScreen.storyboard */; };
 		FA2EFD8F1F7A3D6E00324657 /* TV_StreamingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2EFD8E1F7A3D6E00324657 /* TV_StreamingTests.swift */; };
 		FA2EFD9A1F7A3D6E00324657 /* TV_StreamingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2EFD991F7A3D6E00324657 /* TV_StreamingUITests.swift */; };
+		FA2EFDA81F7A3EB000324657 /* TVStreamingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2EFDA71F7A3EB000324657 /* TVStreamingViewController.swift */; };
+		FAE13EEE1F7AA5D200D38298 /* video-play-256.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE13EED1F7AA5D200D38298 /* video-play-256.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FA2EFD951F7A3D6E00324657 /* TV StreamingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TV StreamingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2EFD991F7A3D6E00324657 /* TV_StreamingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV_StreamingUITests.swift; sourceTree = "<group>"; };
 		FA2EFD9B1F7A3D6E00324657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2EFDA71F7A3EB000324657 /* TVStreamingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVStreamingViewController.swift; sourceTree = "<group>"; };
+		FAE13EED1F7AA5D200D38298 /* video-play-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "video-play-256.png"; path = "../../../IMG/png/video-play-256.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		FA2EFD781F7A3D6D00324657 /* TV Streaming */ = {
 			isa = PBXGroup;
 			children = (
+				FAE13EED1F7AA5D200D38298 /* video-play-256.png */,
 				FA2EFD791F7A3D6E00324657 /* AppDelegate.swift */,
 				FA2EFD7B1F7A3D6E00324657 /* ViewController.swift */,
 				FA2EFD7D1F7A3D6E00324657 /* Main.storyboard */,
 				FA2EFD801F7A3D6E00324657 /* Assets.xcassets */,
 				FA2EFD821F7A3D6E00324657 /* LaunchScreen.storyboard */,
 				FA2EFD851F7A3D6E00324657 /* Info.plist */,
+				FA2EFDA71F7A3EB000324657 /* TVStreamingViewController.swift */,
 			);
 			path = "TV Streaming";
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2EFD841F7A3D6E00324657 /* LaunchScreen.storyboard in Resources */,
+				FAE13EEE1F7AA5D200D38298 /* video-play-256.png in Resources */,
 				FA2EFD811F7A3D6E00324657 /* Assets.xcassets in Resources */,
 				FA2EFD7F1F7A3D6E00324657 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +268,7 @@
 			files = (
 				FA2EFD7C1F7A3D6E00324657 /* ViewController.swift in Sources */,
 				FA2EFD7A1F7A3D6E00324657 /* AppDelegate.swift in Sources */,
+				FA2EFDA81F7A3EB000324657 /* TVStreamingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +513,7 @@
 				FA2EFDA01F7A3D6E00324657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA2EFDA11F7A3D6E00324657 /* Build configuration list for PBXNativeTarget "TV StreamingTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				FA2EFDA31F7A3D6E00324657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA2EFDA41F7A3D6E00324657 /* Build configuration list for PBXNativeTarget "TV StreamingUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				FA2EFDA61F7A3D6E00324657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
